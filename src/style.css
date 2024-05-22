@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+main {
+    background-color: aqua;
+    margin-top: 10px;
+    width: 80%;
+    margin-inline: auto;
+    box-shadow: 0px 0px 5px 1px grey;
+    font-size: 1.1em;
+    transition: all 1s linear;
+}
+
+main .first-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 10px;
+    cursor: pointer;
+}
+
+main .second-section {
+    margin: 2px 10px;
+    text-align: justify;
+
+}
+
+button {
+    background-color: white;
+    padding: 4px;
+    border: none;
+    width: 40px;
+    border-radius: 4px;
+}
+
+.multi-btn {
+    cursor: pointer;
+    width: 40%;
+    border-radius: 4px;
+    margin-inline: auto;
+    background-color: red;
+    margin-top: 20px;
+    padding: 4px;
+    text-align: center;
+}
